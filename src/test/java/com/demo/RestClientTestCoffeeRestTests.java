@@ -18,7 +18,7 @@ import static org.springframework.test.web.client.response.MockRestResponseCreat
 
 @RunWith(SpringRunner.class)
 @RestClientTest(CoffeeRestService.class) // 테스트 대상이 되는 빈을 주입한다.
-public class RestClientCoffeeRestTests {
+public class RestClientTestCoffeeRestTests {
 
     @Rule
     // @Rule로 지정한 필드 값은 @Before, @After 상관없이 하나의 테스트 메소드가 끝날 때마다 정의한 값으로 초기화한다.
