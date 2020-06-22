@@ -1,0 +1,10 @@
+* 인텔리제이 UTF-8 설정 (인텔리제이 재실행 필요)
+1) Intellij VM 설정 (IntelliJ 가상머신 Encoding 설정)
+: Help 메뉴 >> Edit Custom VM Options... >> 마지막 줄에 -Dfile.encoding=UTF-8 추가 후 저장
+
+2) Intellij Editor File Encoding 설정
+: Editor >> File Encodings >> Global, Project Encoding, Properties Files
+  >> 상단의 Global Encoding과 Project Encoding, 하단의 Default encoding for properties files를 UTF-8로 지정한다.
+
+* 참고
+: https://goddaehee.tistory.com/248

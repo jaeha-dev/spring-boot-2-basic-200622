@@ -1,0 +1,27 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+
+# @Value 테스트를 위한 프로퍼티
+# 인코딩(UTF-8)을 확인한 후 앱을 실행해야 한다.
+property:
+  test:
+    name: property depth test
+propertyTest: test
+propertyTestList: a,b,c
+
+# @ConfigurationProperties 테스트를 위한 프로퍼티
+fruit:
+  list:
+    - name: apple
+      color: red
+    - name: banana
+      color: yellow
+    - name: melon
+      color: green
